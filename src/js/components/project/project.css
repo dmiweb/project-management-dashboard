@@ -1,0 +1,57 @@
+.tasks {
+  width: 300px;
+}
+
+.stats__tasks-wrap {
+  border: 1px solid #000000;
+}
+
+.tasks-header {
+  display: flex;
+  gap: 5px;
+  padding: 10px 10px;
+}
+
+.tasks-header__projects-select {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.stats__tasks-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.stats__task {
+  padding: 10px 10px;
+  border-top: 1px solid #000000;
+}
+
+.stats__task-checkbox {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.tasks-header__menu {
+  width: 200px;
+  border: 1px solid #000000;
+}
+
+.tasks-header__tasks-title {
+  position: relative;
+}
+
+.projects-select__menu {
+  max-width: 300px;
+  margin-left: -50px;
+  padding: 0 50px;
+  border: none;
+  font-size: 15px;
+  text-decoration: underline;
+  outline: none;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}

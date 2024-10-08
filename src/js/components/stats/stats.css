@@ -1,0 +1,39 @@
+.stats {
+  width: 300px;
+}
+
+.stats__projects-wrap {
+  border: 1px solid #000000;
+}
+
+.projects-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+
+.projects-header__couter-title {
+  flex: 0 0 20%;
+  text-align: center;
+}
+
+.stats__pojects-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.stats__project {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  border-top: 1px solid #000000;
+}
+
+.stats__project-count {
+  flex: 0 0 20%;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+}

@@ -1,0 +1,8 @@
+.state-manager {
+  display: flex;
+  gap: 20px;
+}
+
+.stats__title, .tasks_title {
+  margin-bottom: 3px;
+}
